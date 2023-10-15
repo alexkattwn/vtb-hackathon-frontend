@@ -1,0 +1,101 @@
+.btnQuestion{
+    max-width: 100%;
+    text-align: left;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px 12px;
+    margin: 0;
+    border: none;
+    outline: none;
+    border-radius: 4px 20px 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1751D1;
+    margin-left: 10px;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    background: #f7f7f7;
+    padding-left: 15px;
+}
+
+.MainContainer {
+
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+    &__chat{
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+
+        &__item {
+            transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+        }
+    }
+    
+    &__btnSearch{
+        background-image: url('/img/search.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-top: auto;
+        
+    }
+
+    &__rowContainer{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    &__BottomContainer{
+        margin-top: auto;
+    }
+
+    &__animeVTB{
+        background-image: url('/img/animeVTB.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-top: auto;
+        border-radius: 50%;
+    }
+
+    &__startListening{
+        
+        background-image: url('/img/microphone.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-top: auto;
+        border-radius: 50%;
+        
+    }
+
+    &__stopListening{
+        visibility: collapse;
+    }
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__img {
+        height: 80px;
+    }
+}

@@ -1,0 +1,32 @@
+.chatContainer{
+    &__message{
+       
+        padding: 20px;
+        color: white;
+        
+    }
+}
+
+.chatContainerUser{
+    background-color:#c9d9e7;
+    border: 1px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.chatContainerAI{
+    background-color:#37A3FE;
+    border: 1px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    width: fit-content;
+}
